@@ -1,0 +1,69 @@
+.tourist {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background: #1F1F1F;
+  padding:8px;
+
+  .row {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col {
+    position: relative;
+    width: 0;
+    display: flex;
+    flex-grow: 1;
+    padding: 8px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    position: relative;
+    //border: 1px solid #e8e8e8;
+    background: #2c343c;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  }
+
+  .chart {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+  }
+
+  .total {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    .total-header {
+      justify-content: space-between;
+      color:#fff;
+      padding:8px;
+      background:rgba(0,0,0, 0.8);
+      display: flex;
+    }
+
+    .total-footer {
+      position: absolute;
+      bottom:0;
+      left:0;
+      right:0;
+      justify-content: space-between;
+      color:#fff;
+      padding:8px;
+      background:rgba(0,0,0, 0.8);
+      display: flex;
+    }
+  }
+}
