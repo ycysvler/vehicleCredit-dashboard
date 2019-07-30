@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules
+.idea
+
+server/public/bundle.css
+server/public/bundle.js
+server/public/index.html
+
+*.log
